@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ccdg" type="id" />
+    <item name="argg" type="id" />
+    <item name="searchTextInputLayout" type="id" />
+</resources>

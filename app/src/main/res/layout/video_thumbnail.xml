@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- nested_view.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Rectangle -->
+    <ImageView
+        android:id="@+id/rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@drawable/rectangle_background" />
+
+    <!-- Image -->
+
+    <!-- Text -->
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="234dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rectangle"
+        android:layout_marginTop="7dp"
+        android:text="Your Text"
+        android:textColor="#888888"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
